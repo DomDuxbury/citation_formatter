@@ -37,7 +37,7 @@ class Article(Item):
       return reference
 
 def load_references_file():
-  with open('./reference_data.bib') as f:
+  with open('./data/reference_data.bib') as f:
     file_str = f.read()
   return file_str
 
